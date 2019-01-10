@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <id>maven-snapshots</id>
+            <name>maven-snapshots</name>
+            <url>https://se2-sandbox.sec.c3sys.army.mil/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
